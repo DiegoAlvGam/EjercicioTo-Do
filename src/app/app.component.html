@@ -1,0 +1,23 @@
+<div class="app-container">
+  <!-- Encabezado de la aplicación (si lo tienes) -->
+  <header>
+    <h1>To-Do</h1>
+    <!-- Aquí podrías colocar un menú de navegación, por ejemplo -->
+    <nav>
+      <a routerLink="/tasks">Lista de Tareas</a>
+      <a routerLink="/tasks/create">Crear Tarea</a>
+      <a routerLink="/login">Cerrar Sesión</a>
+    </nav>
+  </header>
+
+  <!-- Contenido principal de la aplicación -->
+  <main>
+    <!-- Aquí se mostrarán los componentes de las diferentes páginas -->
+    <router-outlet></router-outlet>
+  </main>
+
+  <!-- Pie de página de la aplicación (si lo tienes) -->
+  <footer>
+    <p>Derechos de autor &copy; 2024 To-Do</p>
+  </footer>
+</div>
